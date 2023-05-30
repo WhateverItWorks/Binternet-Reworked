@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
  binternet:
+  #build: .
   image: 'ahwx/binternet:latest'
   container_name: binternet
   hostname: binternet
