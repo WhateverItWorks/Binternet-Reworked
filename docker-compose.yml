@@ -6,11 +6,7 @@ services:
   image: 'ahwx/binternet:latest'
   container_name: binternet
   hostname: binternet
-  user: 65534:65534
-  read_only: true
   security_opt:
      - no-new-privileges:true
-  cap_drop:
-     - ALL
   ports:
      - '127.0.0.1:8009:8009'
