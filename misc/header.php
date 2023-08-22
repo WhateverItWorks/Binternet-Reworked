@@ -6,3 +6,4 @@
     <meta name="description" content="A privacy respecting Pinterest image search"/>
     <meta name="referrer" content="no-referrer"/>
     <link rel="stylesheet" type="text/css" href="misc/style-dark.css">
+    <link rel="icon" href="favicon.png" />
