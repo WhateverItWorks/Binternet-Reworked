@@ -2,7 +2,7 @@
   <div class="footer">
     <p id="footerText">
       |
-      <a href="https://github.com/Ahwxorg/binternet/" target="_blank">Source code</a>
+      <a href="https://github.com/WhateverItWorks/Binternet-Reworked" target="_blank">Source code</a>
 
 <?php
 if (isset($images)) {
