@@ -1,11 +1,10 @@
-#https://hub.docker.com/r/ahwx/binternet
-
 version: '3.7'
 
 services:
  binternet:
-  #build: .
-  image: 'ahwx/binternet:latest'
+  build:
+      context: .
+      dockerfile: Dockerfile
   container_name: binternet
   hostname: binternet
   security_opt:
